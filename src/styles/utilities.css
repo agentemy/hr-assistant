@@ -1,0 +1,104 @@
+.hidden {
+  display: none !important;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.badge--accent {
+  color: var(--accent);
+  border-color: var(--accent-mid);
+  background: var(--accent-weak);
+}
+
+.badge--success {
+  color: var(--success);
+  border-color: color-mix(in srgb, var(--success), transparent 70%);
+  background: color-mix(in srgb, var(--success), transparent 90%);
+}
+
+.badge--danger {
+  color: var(--danger);
+  border-color: color-mix(in srgb, var(--danger), transparent 70%);
+  background: color-mix(in srgb, var(--danger), transparent 90%);
+}
+
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 60;
+  max-width: 360px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-solid);
+  box-shadow: var(--shadow-soft);
+  animation: toast-in 240ms ease both;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 980px) {
+  .grid--2,
+  .grid--3,
+  .grid--4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.funnel-card--hired {
+  border-color: color-mix(in srgb, var(--success), transparent 35%);
+  background: color-mix(in srgb, var(--success), transparent 88%);
+}
+
+.funnel-card--hired h4 {
+  color: var(--success);
+}

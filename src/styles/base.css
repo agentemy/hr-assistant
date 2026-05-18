@@ -1,0 +1,163 @@
+@import url('./variables.css');
+@import url('./reset.css');
+@import url('./utilities.css');
+@import url('../blocks/layout/layout.css');
+@import url('../blocks/sidebar/sidebar.css');
+@import url('../blocks/topbar/topbar.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/hero/hero.css');
+@import url('../blocks/auth/auth.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/vacancy/vacancy.css');
+@import url('../blocks/candidate/candidate.css');
+@import url('../blocks/funnel/funnel.css');
+@import url('../blocks/analytics/analytics.css');
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/theme-toggle/theme-toggle.css');
+@import url('../blocks/table/table.css');
+@import url('../blocks/empty-state/empty-state.css');
+@import url('./dark-theme.css');
+.hero--landing {
+  padding: 32px 24px 56px;
+}
+
+.hero__content {
+  max-width: 980px;
+}
+
+.hero__title {
+  margin: 0 0 24px;
+  font-size: clamp(42px, 6vw, 88px);
+}
+
+.hero__description {
+  max-width: 920px;
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.button--large {
+  min-height: 60px;
+  padding-inline: 28px;
+  border-radius: 22px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .hero__title {
+    font-size: 72px;
+  }
+
+  .hero__description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__title {
+    font-size: 52px;
+  }
+
+  .hero__description {
+    font-size: 16px;
+  }
+
+  .button--large {
+    width: 100%;
+  }
+
+  .hero .row {
+    flex-direction: column;
+  }
+}
+
+.company-card {
+  min-height: 260px;
+}
+
+.company-card__body {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-card h2 {
+  margin: 0 0 24px;
+}
+
+.company-card__description {
+  max-width: 420px;
+  line-height: 1.7;
+}
+
+.company-card__location {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.card,
+.vacancy-card,
+.candidate-card,
+.funnel-card,
+.metric-card,
+.table-wrap,
+.modal__panel,
+.hero,
+.searchbox,
+.topbar,
+.sidebar__nav {
+  background: var(--surface-solid);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-soft);
+}
+
+.button {
+  border-radius: 14px;
+  font-weight: 700;
+}
+
+.button--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.button--ghost {
+  background: #fff;
+  border-color: var(--button-line);
+  color: var(--text);
+}
+
+.badge {
+  background: var(--surface-soft);
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+.badge--accent {
+  background: var(--accent-weak);
+  border-color: var(--accent-mid);
+  color: var(--accent);
+}
+
+.page__title {
+  letter-spacing: -0.03em;
+}
+
+.card__body {
+  padding: 24px;
+}
+
+.hero__title {
+  font-size: clamp(38px, 5vw, 72px);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}

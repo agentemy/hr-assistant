@@ -1,0 +1,124 @@
+html[data-theme="dark"] {
+  --icon-filter: brightness(0) invert(1);
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] body :where(h1, h2, h3, h4, h5, h6, p, span, small, strong, a, label, input, textarea, select, option, button, th, td, li, div) {
+  color: var(--text);
+}
+
+html[data-theme="dark"] .muted,
+html[data-theme="dark"] .page__subtitle,
+html[data-theme="dark"] .card__text,
+html[data-theme="dark"] .metric-card__top,
+html[data-theme="dark"] .metric-card__hint,
+html[data-theme="dark"] .vacancy-card__company,
+html[data-theme="dark"] .candidate-card__meta,
+html[data-theme="dark"] .analytics-card__hint,
+html[data-theme="dark"] .table th,
+html[data-theme="dark"] .empty-state p,
+html[data-theme="dark"] .field span,
+html[data-theme="dark"] .role-card span,
+html[data-theme="dark"] .searchbox input::placeholder {
+  color: var(--muted);
+}
+
+html[data-theme="dark"] .page__eyebrow,
+html[data-theme="dark"] .brand__logo span,
+html[data-theme="dark"] .badge--accent,
+html[data-theme="dark"] .avatar {
+  color: var(--accent);
+}
+
+html[data-theme="dark"] img[src$=".svg"] {
+  filter: var(--icon-filter);
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .metric-card,
+html[data-theme="dark"] .hero,
+html[data-theme="dark"] .hero__panel,
+html[data-theme="dark"] .hero__candidate,
+html[data-theme="dark"] .vacancy-card,
+html[data-theme="dark"] .candidate-card,
+html[data-theme="dark"] .analytics-panel,
+html[data-theme="dark"] .funnel__column,
+html[data-theme="dark"] .funnel-card,
+html[data-theme="dark"] .table-wrap,
+html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .sidebar__nav,
+html[data-theme="dark"] .brand,
+html[data-theme="dark"] .modal__panel,
+html[data-theme="dark"] .empty-state,
+html[data-theme="dark"] .role-card,
+html[data-theme="dark"] .searchbox,
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] .button,
+html[data-theme="dark"] .icon-button,
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .modal__close {
+  border-color: var(--button-line);
+}
+
+html[data-theme="dark"] .button--primary,
+html[data-theme="dark"] .button--danger {
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+html[data-theme="dark"] .badge {
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .sidebar__nav a.is-active,
+html[data-theme="dark"] .sidebar__nav a:hover,
+html[data-theme="dark"] .role-card.is-active {
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+html[data-theme="dark"] .button--ghost,
+html[data-theme="dark"] .button--small.button--ghost,
+html[data-theme="dark"] .icon-button,
+html[data-theme="dark"] .theme-toggle {
+  background: var(--surface-soft);
+  color: var(--text);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .button--ghost:hover,
+html[data-theme="dark"] .icon-button:hover,
+html[data-theme="dark"] .theme-toggle:hover {
+  background: var(--accent-weak);
+  color: #ffffff;
+}
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] .searchbox {
+  background: var(--surface-solid);
+  color: var(--text);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .badge {
+  background: var(--surface-soft);
+  color: var(--muted);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .vacancy-card,
+html[data-theme="dark"] .candidate-card,
+html[data-theme="dark"] .funnel-card,
+html[data-theme="dark"] .table-wrap,
+html[data-theme="dark"] .modal__panel,
+html[data-theme="dark"] .hero,
+html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .sidebar__nav,
+html[data-theme="dark"] .brand {
+  background: var(--surface-solid);
+}

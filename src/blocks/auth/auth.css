@@ -1,0 +1,42 @@
+.auth-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.role-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.role-card {
+  min-height: 120px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-soft);
+  text-align: left;
+  color: var(--text);
+}
+
+.role-card.is-active {
+  border-color: var(--accent);
+  background: var(--accent-weak);
+}
+
+.role-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.role-card span {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 700px) {
+  .role-list {
+    grid-template-columns: 1fr;
+  }
+}

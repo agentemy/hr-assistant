@@ -1,0 +1,15 @@
+.empty-state {
+  text-align: center;
+}
+
+.empty-state h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.empty-state p {
+  margin: 8px auto 0;
+  max-width: 520px;
+  color: var(--muted);
+  line-height: 1.55;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C37BD">
+  <meta name="description" content="HR Assistant - минималистичная система для отбора персонала, ведения кандидатов и HR-аналитики.">
+  <title>HR Assistant</title>
+  <link rel="icon" href="./src/assets/icons/brief.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/styles/base.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Навигация HR Assistant">
+      <a class="brand" href="#/home" aria-label="На главную">
+        <span class="brand__logo"><span>HR</span>Assistant</span>
+      </a>
+
+      <nav class="sidebar__nav" id="navigation">
+        <a href="#/home" data-route="home"><img src="./src/assets/icons/home.svg" alt="">Главная</a>
+        <a href="#/selection" data-route="selection"><img src="./src/assets/icons/response.svg" alt="">Отбор</a>
+        <a href="#/vacancies" data-route="vacancies"><img src="./src/assets/icons/work.svg" alt="">Вакансии</a>
+        <a href="#/candidates" data-route="candidates"><img src="./src/assets/icons/candidates.svg" alt="">Кандидаты</a>
+        <a href="#/analytics" data-route="analytics"><img src="./src/assets/icons/filter.svg" alt="">Аналитика</a>
+        <a href="#/calendar" data-route="calendar"><img src="./src/assets/icons/calendar.svg" alt="">Календарь</a>
+        <a href="#/messages" data-route="messages"><img src="./src/assets/icons/messages.svg" alt="">Сообщения</a>
+        <a href="#/companies" data-route="companies"><img src="./src/assets/icons/companies.svg" alt="">Компании</a>
+        <a href="#/settings" data-route="settings"><img src="./src/assets/icons/settings.svg" alt="">Настройки</a>
+      </nav>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <button class="icon-button topbar__menu" id="menuButton" type="button" aria-label="Открыть меню">☰</button>
+        <label class="searchbox" aria-label="Глобальный поиск">
+          <img src="./src/assets/icons/search.svg" alt="">
+          <input id="globalSearch" type="search" placeholder="Найти кандидата, вакансию или компанию">
+        </label>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">
+          <img src="./src/assets/icons/theme.svg" alt="">
+          <span id="themeLabel">Тема</span>
+        </button>
+        <button class="button button--primary" id="authButton" type="button">Войти</button>
+      </header>
+
+      <section class="page" id="view" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Диалоговое окно">
+      <button class="modal__close" type="button" data-close-modal aria-label="Закрыть">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <template id="toastTemplate">
+    <div class="toast"></div>
+  </template>
+
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.candidate-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  display: grid;
+  gap: 16px;
+  text-align: left;
+}
+
+.candidate-card__top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: var(--accent-weak);
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.candidate-card h3 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+}
+
+.candidate-card p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.match-line {
+  display: grid;
+  gap: 8px;
+}
+
+.match-line__label {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.match-line__bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.match-line__bar span {
+  height: 100%;
+  display: block;
+  background: var(--accent);
+  border-radius: inherit;
+}

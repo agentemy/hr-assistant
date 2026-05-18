@@ -1,0 +1,54 @@
+.button,
+.icon-button {
+  border: 1px solid var(--button-line);
+  border-radius: var(--radius-md);
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  font-weight: 800;
+  color: var(--text);
+  background: var(--surface-soft);
+}
+
+.button:hover,
+.icon-button:hover {
+  transform: translateY(-1px);
+}
+
+.button--primary {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.button--ghost {
+  border-color: var(--button-line);
+  background: transparent;
+}
+
+.button--danger {
+  color: #ffffff;
+  background: var(--danger);
+  border-color: var(--danger);
+}
+
+.button--small {
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+}
+
+.icon-button {
+  width: 48px;
+  padding: 0;
+}
+
+.button img,
+.icon-button img {
+  width: 16px;
+  height: 16px;
+}

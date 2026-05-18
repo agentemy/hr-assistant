@@ -1,0 +1,51 @@
+.funnel {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(224px, 1fr));
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.funnel__column {
+  min-height: 440px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  display: grid;
+  align-content: start;
+  gap: 16px;
+}
+
+.funnel__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  padding: 0 0 8px;
+}
+
+.funnel__head strong {
+  letter-spacing: -0.02em;
+}
+
+.funnel-card {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-soft);
+  display: grid;
+  gap: 8px;
+}
+
+.funnel-card h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.funnel-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}

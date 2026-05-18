@@ -1,0 +1,205 @@
+{
+  "vacancies": [
+    {
+      "id": 1,
+      "title": "Frontend-разработчик",
+      "company": "Nova HR Tech",
+      "city": "Москва",
+      "format": "Гибрид",
+      "employment": "Полная занятость",
+      "experience": "1-3 года",
+      "salary": "160 000 - 230 000 ₽",
+      "category": "IT",
+      "priority": "Высокий",
+      "status": "Активна",
+      "views": 428,
+      "responses": 34,
+      "skills": ["HTML5", "CSS3", "JavaScript", "REST API"],
+      "description": "Разработка интерфейса HR-платформы, работа с карточками кандидатов, воронкой отбора и API.",
+      "requirements": ["JavaScript ES6+", "Адаптивная верстка", "Понимание API и JSON"],
+      "conditions": ["Гибридный формат", "Продуктовая команда", "Рост до middle"]
+    },
+    {
+      "id": 2,
+      "title": "HR-аналитик",
+      "company": "People Metrics",
+      "city": "Санкт-Петербург",
+      "format": "Офис",
+      "employment": "Полная занятость",
+      "experience": "Без опыта",
+      "salary": "80 000 - 120 000 ₽",
+      "category": "HR",
+      "priority": "Средний",
+      "status": "Активна",
+      "views": 256,
+      "responses": 41,
+      "skills": ["Excel", "HR-метрики", "Аналитика", "Коммуникация"],
+      "description": "Сбор данных по подбору, подготовка отчетов и помощь рекрутерам в оценке эффективности найма.",
+      "requirements": ["Внимательность", "Базовое понимание HR-процессов", "Умение работать с таблицами"],
+      "conditions": ["Наставник", "Обучение", "Официальное оформление"]
+    },
+    {
+      "id": 3,
+      "title": "IT-рекрутер",
+      "company": "SkillMatch",
+      "city": "Удаленно",
+      "format": "Удаленно",
+      "employment": "Проектная работа",
+      "experience": "3-6 лет",
+      "salary": "120 000 - 180 000 ₽",
+      "category": "Рекрутинг",
+      "priority": "Высокий",
+      "status": "Активна",
+      "views": 372,
+      "responses": 18,
+      "skills": ["Sourcing", "Интервью", "Telegram", "LinkedIn"],
+      "description": "Поиск кандидатов, первичный скрининг, сопровождение воронки и коммуникация с нанимающими менеджерами.",
+      "requirements": ["Опыт закрытия IT-вакансий", "Знание каналов поиска", "Умение вести кандидата по этапам"],
+      "conditions": ["Удаленный формат", "Бонусы за закрытия", "Гибкая нагрузка"]
+    },
+    {
+      "id": 4,
+      "title": "Менеджер по адаптации персонала",
+      "company": "TeamCare",
+      "city": "Казань",
+      "format": "Офис",
+      "employment": "Полная занятость",
+      "experience": "1-3 года",
+      "salary": "95 000 - 130 000 ₽",
+      "category": "HR",
+      "priority": "Средний",
+      "status": "Черновик",
+      "views": 94,
+      "responses": 7,
+      "skills": ["Онбординг", "Коммуникация", "HRIS"],
+      "description": "Настройка процесса адаптации, контроль первых недель сотрудника и сбор обратной связи.",
+      "requirements": ["Опыт в HR", "Системность", "Умение работать с руководителями"],
+      "conditions": ["Офис рядом с метро", "ДМС после испытательного", "Обучение"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Анна Смирнова",
+      "role": "Junior Frontend Developer",
+      "city": "Москва",
+      "experience": "1 год",
+      "salary": "от 90 000 ₽",
+      "status": "Активно ищет",
+      "match": 92,
+      "source": "Отклик",
+      "skills": ["HTML", "CSS", "JavaScript", "Figma"],
+      "note": "Хорошо подходит на junior-позиции, быстро отвечает, есть учебные проекты."
+    },
+    {
+      "id": 2,
+      "name": "Илья Кравцов",
+      "role": "HR Generalist",
+      "city": "Казань",
+      "experience": "2 года",
+      "salary": "от 110 000 ₽",
+      "status": "Рассматривает предложения",
+      "match": 81,
+      "source": "База кандидатов",
+      "skills": ["Подбор", "Адаптация", "HR-бренд"],
+      "note": "Сильный профиль для вакансий с адаптацией и внутренними коммуникациями."
+    },
+    {
+      "id": 3,
+      "name": "Мария Волкова",
+      "role": "Product Analyst",
+      "city": "Удаленно",
+      "experience": "3 года",
+      "salary": "от 170 000 ₽",
+      "status": "Открыта к диалогу",
+      "match": 76,
+      "source": "Рекомендация",
+      "skills": ["SQL", "Python", "Метрики", "A/B тесты"],
+      "note": "Можно предложить роль HR-аналитика с продуктовым уклоном."
+    },
+    {
+      "id": 4,
+      "name": "Егор Никитин",
+      "role": "IT Recruiter",
+      "city": "Санкт-Петербург",
+      "experience": "4 года",
+      "salary": "от 160 000 ₽",
+      "status": "Не ищет, но готов обсудить",
+      "match": 88,
+      "source": "Sourcing",
+      "skills": ["Sourcing", "Boolean Search", "Интервью", "CRM"],
+      "note": "Релевантен для срочного закрытия IT-направления."
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Nova HR Tech",
+      "industry": "HR Tech",
+      "city": "Москва",
+      "size": "51-200",
+      "openVacancies": 4,
+      "description": "Платформа для автоматизации найма, оценки кандидатов и HR-аналитики."
+    },
+    {
+      "id": 2,
+      "name": "People Metrics",
+      "industry": "Консалтинг",
+      "city": "Санкт-Петербург",
+      "size": "11-50",
+      "openVacancies": 2,
+      "description": "Команда аналитики и HR-консалтинга для среднего бизнеса."
+    },
+    {
+      "id": 3,
+      "name": "SkillMatch",
+      "industry": "Рекрутинг",
+      "city": "Удаленно",
+      "size": "1-10",
+      "openVacancies": 7,
+      "description": "Бутиковое агентство по подбору IT-специалистов."
+    }
+  ],
+  "pipeline": [
+    { "id": 1, "candidate": "Анна Смирнова", "vacancy": "Frontend-разработчик", "stage": "Скрининг", "score": 92, "nextStep": "Созвон 20 минут" },
+    { "id": 2, "candidate": "Егор Никитин", "vacancy": "IT-рекрутер", "stage": "Интервью", "score": 88, "nextStep": "Встреча с руководителем" },
+    { "id": 3, "candidate": "Илья Кравцов", "vacancy": "Менеджер по адаптации персонала", "stage": "Тестовое", "score": 81, "nextStep": "Проверить кейс" },
+    { "id": 4, "candidate": "Мария Волкова", "vacancy": "HR-аналитик", "stage": "Оффер", "score": 76, "nextStep": "Согласовать условия" },
+    { "id": 5, "candidate": "Павел Орлов", "vacancy": "Frontend-разработчик", "stage": "Новые", "score": 69, "nextStep": "Разобрать резюме" },
+    { "id": 6, "candidate": "Дарья Соколова", "vacancy": "HR-аналитик", "stage": "Нанят", "score": 94, "nextStep": "Подготовить выход" }
+  ],
+  "events": [
+    { "id": 1, "title": "Скрининг Анны Смирновой", "date": "2026-05-18", "time": "14:00", "type": "Собеседование" },
+    { "id": 2, "title": "Интервью с Егором Никитиным", "date": "2026-05-19", "time": "16:30", "type": "Интервью" },
+    { "id": 3, "title": "Разбор воронки подбора", "date": "2026-05-20", "time": "12:00", "type": "Аналитика" }
+  ],
+  "analytics": {
+    "summary": {
+      "activeVacancies": 18,
+      "candidatesInPipeline": 126,
+      "responsesThisWeek": 43,
+      "averageTimeToHire": "18 дней",
+      "offerAcceptance": "72%",
+      "screeningConversion": "38%"
+    },
+    "funnel": [
+      { "name": "Новые", "value": 126 },
+      { "name": "Скрининг", "value": 78 },
+      { "name": "Интервью", "value": 42 },
+      { "name": "Тестовое", "value": 24 },
+      { "name": "Оффер", "value": 11 },
+      { "name": "Нанят", "value": 8 }
+    ],
+    "sources": [
+      { "name": "Отклики", "value": 42 },
+      { "name": "Sourcing", "value": 28 },
+      { "name": "Рекомендации", "value": 18 },
+      { "name": "База", "value": 12 }
+    ],
+    "quality": [
+      { "name": "Релевантные", "value": 64 },
+      { "name": "Нужно уточнить", "value": 24 },
+      { "name": "Не подходят", "value": 12 }
+    ]
+  }
+}
